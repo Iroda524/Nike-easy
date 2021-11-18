@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shippori+Antique&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #4d26e6;
+}
+
+.container {
+  width: 65vw;
+  height: 80vh;
+  margin: 60px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.container .size {
+  width: 410px;
+  height: 560px;
+  background-color: #e26796;
+  border-radius: 5px;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  z-index: 2;
+  -webkit-box-shadow: 1px 1px 20px 4px #52525288;
+          box-shadow: 1px 1px 20px 4px #52525288;
+}
+
+.container .size .icon {
+  width: 50px;
+  height: 18px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.container .size p {
+  font-size: 280px;
+  color: #e98baf;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .size img {
+  width: 420px;
+  height: 390px;
+  position: absolute;
+  top: 150px;
+  left: -85px;
+}
+
+.container .size .circle-box {
+  position: absolute;
+  bottom: 15px;
+  left: 150px;
+}
+
+.container .size .circle {
+  margin: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #eea5c0;
+  display: inline-block;
+}
+
+.container .size .circle:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.container .size .middle {
+  background-color: #f1f1f1;
+}
+
+.container .size .plus {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  -webkit-transition: 0.7 ease all;
+  transition: 0.7 ease all;
+}
+
+.container .size .plus:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container .size .second {
+  position: absolute;
+  top: 340px;
+  left: 100px;
+}
+
+.container .size .last {
+  position: absolute;
+  top: 380px;
+  left: 240px;
+}
+
+.container .coast {
+  width: 480px;
+  height: 100%;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  border-radius: 0 5px 5px 0;
+  padding: 50px 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .coast h1 {
+  font-size: 2.5rem;
+}
+
+.container .coast h2 {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.container .coast h3 {
+  font-size: 0.95rem;
+  color: grey;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.container .coast p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.container .coast .desire {
+  font-size: 1.25rem;
+  margin-top: 30px;
+  color: grey;
+}
+
+.container .coast .demension {
+  width: 32px;
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: grey;
+  margin-left: 35px;
+  display: inline-block;
+  -webkit-transition: 0.7 ease all;
+  transition: 0.7 ease all;
+}
+
+.container .coast .demension:hover {
+  color: #e36f9c;
+  border: 2px solid #e36f9c;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.container .coast .bigger {
+  width: 48px;
+}
+
+.container .coast button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  -webkit-box-shadow: 1px 1px 4px 2px #e74d3c9f;
+          box-shadow: 1px 1px 4px 2px #e74d3c9f;
+}
+/*# sourceMappingURL=style.css.map */
