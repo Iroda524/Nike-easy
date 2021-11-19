@@ -132,20 +132,20 @@ body {
 
 .container .coast h3 {
   font-size: 0.95rem;
-  color: grey;
+  color: rgba(128, 128, 128, 0.5);
   display: inline-block;
   margin-bottom: 40px;
 }
 
 .container .coast p {
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .container .coast .desire {
-  font-size: 1.25rem;
-  margin-top: 30px;
-  color: grey;
+  font-size: 1.1rem;
+  margin-top: 35px;
+  color: rgba(128, 128, 128, 0.5);
 }
 
 .container .coast .demension {
@@ -154,7 +154,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
-  color: grey;
+  color: rgba(128, 128, 128, 0.5);
   margin-left: 35px;
   display: inline-block;
   -webkit-transition: 0.7 ease all;
@@ -172,16 +172,46 @@ body {
   width: 48px;
 }
 
+.container .coast .arrow {
+  display: inline-block;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.container .coast .arrow img {
+  width: 10px;
+  height: 10px;
+}
+
+.container .coast .arrow img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container .coast .arrow b {
+  font-size: 1.35rem;
+}
+
 .container .coast button {
   width: 250px;
   height: 50px;
+  display: block;
+  margin-top: 35px;
   font-size: 1.25rem;
   color: white;
   background-color: #e74c3c;
   border: none;
   border-radius: 3px;
   font-weight: 600;
-  -webkit-box-shadow: 1px 1px 4px 2px #e74d3c9f;
-          box-shadow: 1px 1px 4px 2px #e74d3c9f;
+  -webkit-box-shadow: 1.5px 1.5px 20px 6px #e74d3c9f;
+          box-shadow: 1.5px 1.5px 20px 6px #e74d3c9f;
+  -webkit-transition: 0.7 ease all;
+  transition: 0.7 ease all;
+}
+
+.container .coast button:hover {
+  -webkit-transform: translate(-7px, 7px);
+          transform: translate(-7px, 7px);
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
